@@ -1,0 +1,60 @@
+:root{
+    --fundo-color: hsl(218, 23%, 16%);
+    --texto-color: hsl(193, 38%, 86%);
+    --cartao-color: hsl(217, 19%, 24%);
+    --botao-e-texto-color: hsl(150, 100%, 66%);
+}
+
+body{
+    background-color: var(--fundo-color);
+    font-family: "Manrope";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.cartao{
+    background-color: var(--cartao-color);
+    max-width: 430px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.cartao h2{
+    text-transform: uppercase;
+    color: var(--botao-e-texto-color);
+    letter-spacing: 5px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.cartao p{
+    color: var(--texto-color);
+    text-align: center;
+    font-size: 23px;
+    padding: 23px;
+}
+
+.cartao picture img{
+    width: 100%;
+}
+
+.cartao .botao-atualiza{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: var(--botao-e-texto-color);
+    transform: translateY(85%);
+    border: none;
+}
+
+.cartao .botao-atualiza:hover{
+    color: #53FFAB;
+    cursor: pointer;
+    box-shadow: 0 5px 15px var(--botao-e-texto-color);
+}

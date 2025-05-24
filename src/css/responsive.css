@@ -1,0 +1,92 @@
+/*  DESKTOP FIRST
+@media (max-width: 768px){
+    .header{
+        flex-direction: column;
+    }
+
+    .logo h1{
+        font-size: 4rem;
+    }
+
+    .menu{
+        margin-top: 50px;
+        flex-direction: column;
+    }
+
+    .menu li{
+        padding: 33px 0;
+    }
+
+    .menu li:last-child{
+        margin-top: 10px;
+    }
+
+    .menu li a{
+        font-size: 4rem;
+        padding: 17px 40px;
+    }
+
+    .menu li a.btn{
+        font-size: 1.8rem;
+        padding: 15px 23px;
+    }
+} */
+
+
+/* MOBILE FIRST 
+body{
+    font-family: "Public Sans", sans-serif;
+    font-weight: 400;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .logo{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.header .logo h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.menu li a{
+    font-size: 40px;
+}
+
+.menu li a:hover{
+    background-color: #5BC241;
+    padding: 17px 40px;
+    color: #fff;
+}
+
+.menu li .btn:last-child{
+    padding: 15px 23px;
+    background-color: #5BC241;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 10px;
+} */
+
+@media(max-width: 768px){
+    .pinturas{
+        max-width: 335px;
+        margin: 30px 0;
+        gap: 0;
+    }
+}

@@ -1,0 +1,136 @@
+/* DESKTOP FIRST 
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #fff;
+    font-family: "Public Sans", sans-serif;
+    font-weight: 400;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo h1{
+    font-size: 2rem;
+    margin-left: 5px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu li a{
+    padding: 10px 5px;
+    transition: 0.3s ease-in-out;
+    margin-left: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.menu li a:hover{
+    background-color: #5BC241;
+    color: #fff;
+}
+
+.menu li a.btn{
+    background-color: #5BC241;
+    border-radius: 1rem;
+    color: #fff;
+    margin-left: 2rem;
+    padding: 10px 20px;
+} */
+
+/* MOBILE FIRST 
+@media (min-width:768px){
+    .header{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 45px
+    }
+
+    .header .logo{
+        margin: 0;
+        gap: 5px;
+    }
+
+    .header .logo h1{
+       font-size: 20px;
+    }
+
+    .menu{
+        flex-direction: row;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .menu li a{
+        font-size: 15px;
+    }
+
+    .menu li a:hover{
+        padding: 10px 7px;
+    }
+
+    .menu li .btn:last-child{
+        padding: 10px 20px;
+    }
+} */
+
+html{
+    font-family: "Public Sans", sans-serif;
+}
+
+main{
+    display: flex;
+    background-color: aqua;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.pinturas{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pinturas .pintura{
+    position: relative;
+    width: 335px;
+    height: 431px;
+}
+
+.pinturas .pintura img{
+    width: 100%;
+}
+
+.pinturas .pintura .informacoes{
+    color: #fff ;
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+}
+
+.pinturas .pintura .informacoes .titulo{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.pinturas .pintura .informacoes .subtitulo{
+    font-size: 17px;
+    font-weight: 300;
+}
